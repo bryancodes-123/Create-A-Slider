@@ -12,12 +12,14 @@
     <body>
         <div class="container">
             <h2>Carousel Example</h2>
-            <div id="MyCarousel" class="Carousel slide" data-ride="Carousel"></div>
+            <div id="MyCarousel" class="Carousel slide" data-ride="Carousel">
+                <!-- Indicators -->
             <ol class="Carousel-indicators">
                 <li data-target="#MyCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#MyCarousel" data-slide-to="1"></li>
                 <li data-target="#MyCarousel" data-slide-to="2"></li>
             </ol> 
+            <!-- Wrapper for slides -->
             <div class="Carousel-inner">
                 <div class="item active">
                     <img src="new york.jfif" alt="new york" style="width: 100%;">
@@ -30,12 +32,13 @@
                 </div>
             </div>
         </div>
+            <!-- Left and right controls -->
         <a class="left carousel-control" href="#Mycarousel" data-slide="prev">
-            <span class="glyphicon glypicon chevron-left"></span>
+            <span class="glyphicon glypicon-chevron-left"></span>
             <span class="sr-only">previous</span>
         </a>
         <a class="right carousel-control" href="#Mycarousel" data-slide="Next">
-            <span class="glyphicon glyphicon chevron-right"></span>
+            <span class="glyphicon glyphicon-chevron-right"></span>
             <span class="sr-only">Next</span>
         </a>
     </body>
